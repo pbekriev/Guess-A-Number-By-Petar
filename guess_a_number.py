@@ -1,13 +1,13 @@
 import random
-from colorama import Fore, Back, Style
+from colorama import Fore
 
 print(Fore.BLUE + "====================RULES====================\n"
-      "The game \"Guess the number\" has difficulty\n"
-      "LEVELS, from which depends the size of the\n"
-      "range in which you have to guess the number.\n"
-      "Level 1 is to 100, Level 2 is to 200 and etc.\n"
-      "You have 10 attempts to guess the number.\n"
-      "=============================================")
+                  "The game \"Guess the number\" has difficulty\n"
+                  "LEVELS, from which depends the size of the\n"
+                  "range in which you have to guess the number.\n"
+                  "Level 1 is to 100, Level 2 is to 200 and etc.\n"
+                  "You have 10 attempts to guess the number.\n"
+                  "=============================================")
 
 while True:  # Main Program
 
