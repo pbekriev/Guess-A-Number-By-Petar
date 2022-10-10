@@ -50,6 +50,7 @@ while True:  # Main Program
         attemps -= 1
 
     if if_not_win:
+        print(Fore.RED + f"The Number was: {computer_number}")
         print(Fore.RED + "==================YOU LOST!==================")
 
     while True:  # Check for restart
