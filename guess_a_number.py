@@ -16,10 +16,7 @@ while True:  # Main Program
         if level.isdigit():
             if level != "0":
                 break
-            else:
-                print(Fore.RED + "Invalid input. Try again...")
-        else:
-            print(Fore.RED + "Invalid input. Try again...")
+        print(Fore.RED + "Invalid input. Try again...")
 
     if_not_win = True
     attemps = 10
@@ -36,6 +33,10 @@ while True:  # Main Program
             continue
 
         player_number = int(player_input)
+
+        if player_number == 0 or player_number > (int(level) * 100):
+            print(Fore.RED + "Out of range! Tru again...")
+            continue
 
         if player_number == computer_number:
             print(Fore.YELLOW + "You guess it!")
